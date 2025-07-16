@@ -17,7 +17,7 @@ function Navbar() {
             <div className='hidden lg:flex justify-center items-center xl:gap-4 gap-3'>
               {
                 navItems.map(({lable, links}, i) => (
-                     <a href={links} className='text-accent xl:text-base sm:text-sm hover:text-primary transition-colors duration-150 cursor-pointer'>{lable}</a>
+                     <a href={links} key={i} className='text-accent xl:text-base sm:text-sm hover:text-primary transition-colors duration-150 cursor-pointer' >{lable}</a>
                 ))
               }
             </div>

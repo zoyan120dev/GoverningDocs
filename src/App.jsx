@@ -2,15 +2,16 @@ import { useState } from 'react';
 import './App.css';
 import Navbar from './component/Shared/Navbar';
 import Footer from './component/Shared/Footer';
+import Hero from './component/home/Hero';
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-     <main className='bg-sky-400/50'>
+     <main className='font-nunito-sans bg-[url(/hero3.png)] min-h-svh bg-no-repeat bg-top imgsize'>
       <Navbar/>
-      <div className='min-h-[50svh]'> </div>
-         <Footer/>
+      <Hero/>
+      <Footer/>
      </main>
     </>
   );
