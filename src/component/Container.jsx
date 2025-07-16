@@ -9,7 +9,7 @@ function Container({ children, className }) {
         className
       )}
     >
-      {children} <h1>Hello kemon aso tomra </h1>
+      {children} 
     </div>
   );
 }
