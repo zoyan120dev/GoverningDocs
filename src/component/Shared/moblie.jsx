@@ -4,7 +4,7 @@ import { navItems } from '../lib/data/data';
 
 function Moblimenu({ toggleMenu}) {
   return (
-    <div className='lg:hidden absolute top-0 left-0 w-full h-screen bg-gray-400 z-50 p-6 overflow-y-hidden'>
+    <div className='lg:hidden absolute top-0 left-0 w-full h-screen bg-gray-100 z-50 p-6 overflow-y-hidden'>
         <div className='flex justify-between items-center pb-6'>
             <Logo/>
             <button className='text-black text-2xl self-end ' aria-label='Close Menu' onClick={toggleMenu}>

@@ -9,7 +9,8 @@ function App() {
     <>
      <main className='bg-sky-400/50'>
       <Navbar/>
-      <Footer/>
+      <div className='min-h-[50svh]'> </div>
+         <Footer/>
      </main>
     </>
   );
