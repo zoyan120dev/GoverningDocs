@@ -10,11 +10,11 @@ function ProblemSalutions() {
       <Container>
        <ProblemSalutionsHeader/>
        {/* Problems Salutions Grids */}
-       <div className='pt-10 grid grid-cols-4 items-center gap-7'>
+       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-7 '>
          {/* Problems Salutions cards*/}
          {
           Problmessdata.map((problem , i) => (
-              <div className='w-[272px] h-[349px] rounded-[20px] p-5 space-y-5 shadow-card mt-5 hover:bg-primary transition-all duration-150  group cursor-pointer'>
+              <div className=' h-[349px] rounded-[20px] p-5 space-y-5 shadow-card mt-5 hover:bg-primary transition-all duration-150  group cursor-pointer'>
               <div className='bg-primary size-[58px] rounded-full flex justify-center items-center'>
                 <img src={problem.img} alt="" />
               </div>
