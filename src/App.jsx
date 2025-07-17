@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import './App.css';
 import Navbar from './component/Shared/Navbar';
 import Footer from './component/Shared/Footer';
@@ -7,9 +7,8 @@ import ProblemSalutions from './component/home/Problems';
 import Rivew from './component/home/Rivew';
 import Portners from './component/home/Portners';
 import Faq from './component/home/Faq';
+import Nodearea from './component/home/Node';
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
      <main className='font-nunito-sans bg-[url(/hero3.png)] min-h-svh bg-no-repeat bg-top imgsize'>
@@ -19,6 +18,7 @@ function App() {
       <Rivew/>
       <Portners/>
       <Faq/>
+      <Nodearea/>
       <Footer/>
 
      </main>

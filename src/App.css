@@ -14,3 +14,7 @@
 .imgsize{
      background-size: 100%;
 }
+
+.no-Scroll{
+    overflow: hidden;
+}
